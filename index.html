@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <form id="todo_form" onsubmit="addTasks(event)">
+        <div class="todo_input_box" id="todo_input_box">
+            <input id="todo_input" type="text" placeholder="ADD TASKS"/>
+        </div>
+        <div class="add_button" id="add_button">
+            <button type="submit">Add</button>
+        </div>
+        <div class="todo_list_box">
+            TO-DO
+        </div>
+        <div class="completed_todo_list_box">
+            COMPLETED TASKS
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
